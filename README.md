@@ -54,3 +54,18 @@ Pour l'ORM, je vous conseille d'utiliser comme moi [SQLalchemy](https://www.sqla
 
 
 # RESUME DE LA STRUCTURE DU PROJET
+
+# Comment lancer le projet ?  
+Pour commencer, veuillez vous prémunir d'avoir bien python en version minimal de 3.6 installé sur votre PC.
+J'ai pour habitude de travailler via des environnements virtuels pour mes projets en Python et je vous invite donc à le faire aussi.  
+Pour ma part, j'utilise Virtualenv mais Venv fourni de base avec Python fait tres bien l'affaire.
+
+A la racine du projet précédemment téléchargé, saisir la commande suivante dans votre invite de commande préféré :  
+* ```python -m pip install -r requirements.txt```  
+> Cette commande va permettre de charger les biblioteques necessaires au projet directement dans votre environnement virtuel.  
+
+* ```python run.py```  
+>  Commande pour lancer le serveur Flask
+
+Vous pouver maintenant ouvrir votre application à l'adresse suivante : http://localhost:5000/
+![Page de connexion](https://github.com/Enoarch/dash_flask/blob/main/readme_files/connection.png)
