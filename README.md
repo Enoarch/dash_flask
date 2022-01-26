@@ -1,3 +1,5 @@
+[Doc en cours de rédaction]
+
 ![Langage Python](https://img.shields.io/badge/language-python-blue.svg)
 ![Langage JavaScript](https://img.shields.io/badge/language-javascript-blue.svg)
 ![Langage HTML](https://img.shields.io/badge/language-HTML-blue.svg)
@@ -24,7 +26,15 @@ Afin de ne pas bloquer pour une question de materiels, le modèle intègre un si
 En terme de framework web python, plusieurs possibilités sont disponibles avec parfois peu de différence.
 Parmi ces frameworks, nous pouvons en citer deux qui ont retenu mon attention :
 * DJANGO
-* FLASK
+* FLASK  
+Inutile de refaire un comparatif qui à été réalisé de nombreuses fois. Je vous invite docn à lire cette [article](https://www.monocubed.com/flask-vs-django/).  
+Pour donner mon avis personnel, je dirais que la force de Flask est ce qui en fait aussi sa faiblesse. C'est le projet qui doit vous orienter vers tel technologie ou l'autre.  
+Flask a pour avantage en effet de très rapidement pouvoir démarrer un service web puisqu'en tant que micro-framework, il n'embarque pas toutes les composants que l'on retouve dans Django (ORM, Admin, ...). C'est en partie pour cela que Flask est tres interessant pour créer des applications monopages ou de Dashboarding qui ne necessite pas necessairement de bases, de gestions d'utilisateurs, ...  
+Toutefois, il serait réducteur de croire que Flask est *simple d'utilisation*. En outre, il est tout à fait possible de se rapprocher d'un structure proche de DJANGO avec l'ajout de *add-on* comme un ORM, gestionnaire de Session, ... Cela complexifie le projet d'autant que la doc n'est pas toujours aussi bien fournie (il sera necessaire de faire quelques recherches en plus).  
+Sur ce point, même si Flask a une bonne communauté, Django est excellent avec une documentation unique trés bien fournie. 
+  
+Et qui dit liberté sur la structure, dit aussi difficulté à maintenir si la rigueur n'est pas là. Pour un débutant, il est judicieux au préalable de maitriser la [philosophie MVC | MVT](https://www.geeksforgeeks.org/difference-between-mvc-and-mvt-design-patterns/). 
+
 
 ## ZOOM SUR FLASK
 !["Flask Image"](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg?uselang=fr)
