@@ -27,6 +27,7 @@ En terme de framework web python, plusieurs possibilités sont disponibles avec 
 Parmi ces frameworks, nous pouvons en citer deux qui ont retenu mon attention :
 * DJANGO
 * FLASK  
+
 Inutile de refaire un comparatif qui à été réalisé de nombreuses fois. Je vous invite docn à lire cette [article](https://www.monocubed.com/flask-vs-django/).  
 Pour donner mon avis personnel, je dirais que la force de Flask est ce qui en fait aussi sa faiblesse. C'est le projet qui doit vous orienter vers tel technologie ou l'autre.  
 Flask a pour avantage en effet de très rapidement pouvoir démarrer un service web puisqu'en tant que micro-framework, il n'embarque pas toutes les composants que l'on retouve dans Django (ORM, Admin, ...). C'est en partie pour cela que Flask est tres interessant pour créer des applications monopages ou de Dashboarding qui ne necessite pas necessairement de bases, de gestions d'utilisateurs, ...  
