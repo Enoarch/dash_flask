@@ -35,10 +35,37 @@ Toutefois, il serait réducteur de croire que Flask est *simple d'utilisation*. 
 Sur ce point, même si Flask a une bonne communauté, Django est excellent avec une documentation unique trés bien fournie. 
   
 Et qui dit liberté sur la structure, dit aussi difficulté à maintenir si la rigueur n'est pas là. Pour un débutant, il est judicieux au préalable de maitriser la [philosophie MVC | MVT](https://www.geeksforgeeks.org/difference-between-mvc-and-mvt-design-patterns/). 
+  
+Pour ma part, après m'être froté à Django, j'apprécie fortement la liberté de FLASK mais en appliquant certains concept de Django. Mes projets de type POC ou Monopage justifie aussi mon attirance pour ce Framework.
+
+## ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
+
+Pour installer flask, commencer par installer la biblioteque necessaire par la commande qui suit :  
+```python -m pip install Flask```   
+*Nota : ke préconise l'utilisation d'un environnement virtuel*
+  
+Le meilleurs moyen d'illuster Flask, c'est d'en montrer son apparente simplicité via le "Hello  World" de cette technologie :
+Dans un fichier nommé *run.py*, saisir le code suivant, puis enregister.
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+    
+if __name__ == "__main__":
+    app.run()
+    
+```  
+Dans votre invit de commande préfére, saisir au niveau du répertoire contenant votre fichier *run.py* la commande suivante :  
+```python run.py```  
+  
+Votre serveur est désormé lancé en local sur votre PC et est accesible à l'url suivante : http://127.0.0.1:5000/ ou http://localhost:5000/.
 
 
-## ZOOM SUR FLASK
-!["Flask Image"](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg?uselang=fr)
+
 ### La base de données
 Pour la base de données, j'ai fait le choix d'utiliser le système *sqlite* car du fait de sa simplicité de mise en place (un simple fichier avec l'extension .sqlite)  
 FLASK à un petit défaut (ou pas d'ailleurs) car en tant que bon micro-framework, il ne possède pas d'interface d'administration de base de données comme peut l'avoir Django.
