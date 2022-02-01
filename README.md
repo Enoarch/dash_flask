@@ -65,7 +65,7 @@ Dans votre invit de commande préfére, saisir au niveau du répertoire contenan
   
 Votre serveur est désormé lancé en local sur votre PC et est accesible à l'url suivante : http://127.0.0.1:5000/ ou http://localhost:5000/.
 
-### III.2 FLASK : la base de données
+### III.2.a - FLASK : la base de données
 Pour la base de données, j'ai fait le choix d'utiliser le système *sqlite* car du fait de sa simplicité de mise en place (un simple fichier avec l'extension .sqlite)  
 FLASK à un petit défaut (ou pas d'ailleurs) car en tant que bon micro-framework, il ne possède pas d'interface d'administration de base de données comme peut l'avoir Django.
 Il peut donc vite s'avérer diffcicile de manager ces bases si l'on n'a pas de connaissance de SQL. Rassurez-vous, plusieurs solutions de contournements à ce petit souci.
@@ -80,15 +80,14 @@ L'avantage toutefois de la première méthode est que cela s'adapte à d'autres 
 ![utilitaire SQL](https://github.com/Enoarch/dash_flask/blob/main/readme_files/DBBrowser1.png)
 ![utilitaire SQL](https://github.com/Enoarch/dash_flask/blob/main/readme_files/DBBrowser2.png)
 
-### L'ORM 
+### III.2.b - L'ORM 
 Dans le cadre de manipulation d'une base de type SQL, il est normalement necessaire de maitriser le SQL en plus de langage utilisé pour la création de l'application. Heureusement, Python permet de faire le lien entre le code et la base directement sans apprendre le SQL via un type de programme que l'on appelle un [ORM](https://fr.wikipedia.org/wiki/Mapping_objet-relationnel).
 Contrairement à Django, Flask n'embarque pas nativement d'[ORM](https://fr.wikipedia.org/wiki/Mapping_objet-relationnel) et il est donc necessaire d'ajouter un add-on pour pouvoir l'intégrer au projet.   
   
 Pour l'ORM, je vous conseille d'utiliser comme moi [SQLalchemy](https://www.sqlalchemy.org/) qui est simple d'utilisation et qui possede certaine fonctionalitée plutôt interessante.
 
-
-### Le système d'autentification 
-
+### III.2.C - Gestion de Session et Système d'autentification 
+> blabla
 
 # RESUME DE LA STRUCTURE DU PROJET
 
