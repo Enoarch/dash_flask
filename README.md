@@ -68,7 +68,7 @@ Votre serveur est désormé lancé en local sur votre PC et est accesible à l'u
 ### III.2 FLASK : la base de données
 Pour la base de données, j'ai fait le choix d'utiliser le système *sqlite* car du fait de sa simplicité de mise en place (un simple fichier avec l'extension .sqlite)  
 FLASK à un petit défaut (ou pas d'ailleurs) car en tant que bon micro-framework, il ne possède pas d'interface d'administration de base de données comme peut l'avoir Django.
-Il peut donc vite s'avérer diffcicile de manager ces bases si l'on n'a pas de connaissance de SQL. Rassurez-vous, plsuieurs solutions de contournements à ce petit souci.
+Il peut donc vite s'avérer diffcicile de manager ces bases si l'on n'a pas de connaissance de SQL. Rassurez-vous, plusieurs solutions de contournements à ce petit souci.
 
 * Un add-on à flask comme [flask-admin](https://flask-admin.readthedocs.io/en/latest/)
 * [La console SQLite](https://sqlite.org/cli.html) 
