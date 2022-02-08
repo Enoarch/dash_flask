@@ -8,7 +8,7 @@
 
 # Sommaire
   
-* [I. CAHIER DES CHARGES DU PROJET](#cahier-des-charges-du-projet)
+* [I. CAHIER DES CHARGES DU PROJET](#i.-cahier-des-charges-du-projet)
 * [II. LE MATERIEL NECESSAIRE (optionnel)](#ii.-le-materiel-necessaire-(optionnel))
 * [Sub-items](#sub-items)
 * [Referring to Items](#referring-to-items)
