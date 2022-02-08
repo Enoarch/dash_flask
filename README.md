@@ -12,7 +12,6 @@
 * [II) LE MATERIEL NECESSAIRE (optionnel)](#le-materiel-necessaire-(optionnel))
 * [III) Rentrons un peu dans la technique](#rentrons-un-peu-dans-la-technique) 
 	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#le-choix-du-framework-backend-python)
-	- [III)2 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#le-choix-du-framework-backend-python)
 	- [III)2 ZOOM SUR FLASK](#zoom-sur-flask)
 
 # CAHIER DES CHARGES DU PROJET
@@ -54,7 +53,7 @@ Pour installer flask, commencer par installer la biblioteque necessaire par la c
   
 Le meilleurs moyen d'illuster Flask, c'est d'en montrer son apparente simplicité via le "Hello  World" de cette technologie :
 Dans un fichier nommé *run.py*, saisir le code suivant, puis enregister.
-```
+```python
 from flask import Flask
 
 app = Flask(__name__)
