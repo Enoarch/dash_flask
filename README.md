@@ -8,12 +8,11 @@
 
 # Sommaire
   
-* [I) CAHIER DES CHARGES DU PROJET](#i)-cahier-des-charges-du-projet)
-* [II) LE MATERIEL NECESSAIRE (optionnel)](#ii)-le-materiel-necessaire-(optionnel))
-* [III) Rentrons un peu dans la technique](#iii)-rentrons-un-peu-dans-la-technique) 
-	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#III)1-le-choix-du-framework-backend-python)
-	- [Get Sub-items of the Item](#get-sub-items-of-the-item)
-	- [Magic Where Methods](#magic-where-methods)
+* [I) CAHIER DES CHARGES DU PROJET](#i\)-cahier-des-charges-du-projet)
+* [II) LE MATERIEL NECESSAIRE (optionnel)](#ii\)-le-materiel-necessaire-(optionnel))
+* [III) Rentrons un peu dans la technique](#iii\)-rentrons-un-peu-dans-la-technique) 
+	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#iii\)1-le-choix-du-framework-backend-python)
+	- [III)2 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#iii\)2-le-choix-du-framework-backend-python)
 * [Referring to Menu Objects](#referring-to-menu-instances)
 * [HTML Attributes](#html-attributes)
 * [Manipulating Links](#manipulating-links)
