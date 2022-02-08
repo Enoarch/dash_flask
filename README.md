@@ -8,7 +8,7 @@
 
 # Sommaire
   
-* [I. CAHIER DES CHARGES DU PROJET](#i.-cahier-des-charges-du-projet)
+* [I CAHIER DES CHARGES DU PROJET](#i-cahier-des-charges-du-projet)
 * [II. LE MATERIEL NECESSAIRE (optionnel)](#ii.-le-materiel-necessaire-(optionnel))
 * [Sub-items](#sub-items)
 * [Referring to Items](#referring-to-items)
@@ -36,7 +36,7 @@
 * [Authorization](#authorization)
 * [Configuration](#configuration)
 
-# I. CAHIER DES CHARGES DU PROJET
+# I CAHIER DES CHARGES DU PROJET
 L'objectif du projet est de monter un site de dashboarding en utilisant le micro-framework python Flask et un capteur de températue de type DTH.  
 Ce projet est juste un POC pour tester Flask et donner un backbone pour construire son propre site de Dashboarding.  
   
