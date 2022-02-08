@@ -6,9 +6,37 @@
 ![Langage CSS](https://img.shields.io/badge/language-CSS-blue.svg)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
+# Sommaire
+  
+* [I. CAHIER DES CHARGES DU PROJET](cahier-des-charges-du-projet)
+* [II. LE MATERIEL NECESSAIRE (optionnel)](#II.-LE-MATERIEL-NECESSAIRE-(optionnel))
+* [Sub-items](#sub-items)
+* [Referring to Items](#referring-to-items)
+	- [Get All Items](#get-all-items)
+	- [Get Sub-items of the Item](#get-sub-items-of-the-item)
+	- [Magic Where Methods](#magic-where-methods)
+* [Referring to Menu Objects](#referring-to-menu-instances)
+* [HTML Attributes](#html-attributes)
+* [Manipulating Links](#manipulating-links)
+	- [Link's Href Property](#links-href-property)
+* [Active Item](#active-item)
+	- [URL Wildcards](#url-wildcards)
+    - [Check for Active Children](#check-for-active-children) 
+* [Inserting a Separator](#inserting-a-separator)
+* [Append and Prepend](#append-and-prepend)
+* [Meta Data](#meta-data)
+* [Manipulating The Items](#manipulating-the-items)
+* [Sorting the Items](#sorting-the-items)
+* [Rendering](#rendering)
+    - [Built-in Renderers](#built-in-renderers)
+        - [Render As UL](#render-as-ul)
+        - [Render As OL](#render-as-ol)
+        - [Render As Div](#render-as-div)
+	- [Custom Renderers](#custom-renderers)
+* [Authorization](#authorization)
+* [Configuration](#configuration)
 
-
-# I. CAHIER DES CHARGE DU PROJET
+# I. CAHIER DES CHARGES DU PROJET
 L'objectif du projet est de monter un site de dashboarding en utilisant le micro-framework python Flask et un capteur de températue de type DTH.  
 Ce projet est juste un POC pour tester Flask et donner un backbone pour construire son propre site de Dashboarding.  
   
