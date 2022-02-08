@@ -8,11 +8,10 @@
 
 # Sommaire
   
-* [I CAHIER DES CHARGES DU PROJET](#i-cahier-des-charges-du-projet)
-* [II. LE MATERIEL NECESSAIRE (optionnel)](#ii.-le-materiel-necessaire-(optionnel))
-* [Sub-items](#sub-items)
-* [Referring to Items](#referring-to-items)
-	- [Get All Items](#get-all-items)
+* [I) CAHIER DES CHARGES DU PROJET](#i)-cahier-des-charges-du-projet)
+* [II) LE MATERIEL NECESSAIRE (optionnel)](#ii)-le-materiel-necessaire-(optionnel))
+* [III) Rentrons un peu dans la technique](#iii)-rentrons-un-peu-dans-la-technique) 
+	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#III)1-le-choix-du-framework-backend-python)
 	- [Get Sub-items of the Item](#get-sub-items-of-the-item)
 	- [Magic Where Methods](#magic-where-methods)
 * [Referring to Menu Objects](#referring-to-menu-instances)
@@ -36,22 +35,22 @@
 * [Authorization](#authorization)
 * [Configuration](#configuration)
 
-# I CAHIER DES CHARGES DU PROJET
+# I) CAHIER DES CHARGES DU PROJET
 L'objectif du projet est de monter un site de dashboarding en utilisant le micro-framework python Flask et un capteur de températue de type DTH.  
 Ce projet est juste un POC pour tester Flask et donner un backbone pour construire son propre site de Dashboarding.  
   
 Afin de pousser un peu plus loin l'utilisation de Flask, une base de données sera utilisé et un système d'autentification sera rajouté en plus.
   
   
-# II. LE MATERIEL NECESSAIRE (optionnel)
+# II) LE MATERIEL NECESSAIRE (optionnel)
 
  * Un RASPBERRY
  * Un capteur de temprature, humidité DTH ([DTH11](https://www.robotshop.com/eu/fr/capteurs-temperature-humidite-dth11-dfrobot-gravity.html  "lien vers un site de revente"), DTH21, ...)
   
 Afin de ne pas bloquer pour une question de materiels, le modèle intègre un simulateur de données. 
 
-# III. Rentrons un peu dans la technique
-## III.1 Le CHOIX DU FRAMEWORK BACKEND PYTHON 
+# III) Rentrons un peu dans la technique
+## III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON 
 En terme de framework web python, plusieurs possibilités sont disponibles avec parfois peu de différence.
 Parmi ces frameworks, nous pouvons en citer deux qui ont retenu mon attention :
 * DJANGO
@@ -67,7 +66,7 @@ Et qui dit liberté sur la structure, dit aussi difficulté à maintenir si la r
   
 Pour ma part, après m'être froté à Django, j'apprécie fortement la liberté de FLASK mais en appliquant certains concept de Django. Mes projets de type POC ou Monopage justifient aussi mon attirance pour ce Framework.
 
-## III.2 ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
+## III)2 ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
 
 Pour installer flask, commencer par installer la biblioteque necessaire par la commande qui suit :  
 ```python -m pip install Flask```   
