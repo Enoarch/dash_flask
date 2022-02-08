@@ -8,48 +8,29 @@
 
 # Sommaire
   
-* [I) CAHIER DES CHARGES DU PROJET](#i\)-cahier-des-charges-du-projet)
-* [II) LE MATERIEL NECESSAIRE (optionnel)](#ii\)-le-materiel-necessaire-(optionnel))
-* [III) Rentrons un peu dans la technique](#iii\)-rentrons-un-peu-dans-la-technique) 
-	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#iii\)1-le-choix-du-framework-backend-python)
-	- [III)2 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#iii\)2-le-choix-du-framework-backend-python)
-* [Referring to Menu Objects](#referring-to-menu-instances)
-* [HTML Attributes](#html-attributes)
-* [Manipulating Links](#manipulating-links)
-	- [Link's Href Property](#links-href-property)
-* [Active Item](#active-item)
-	- [URL Wildcards](#url-wildcards)
-    - [Check for Active Children](#check-for-active-children) 
-* [Inserting a Separator](#inserting-a-separator)
-* [Append and Prepend](#append-and-prepend)
-* [Meta Data](#meta-data)
-* [Manipulating The Items](#manipulating-the-items)
-* [Sorting the Items](#sorting-the-items)
-* [Rendering](#rendering)
-    - [Built-in Renderers](#built-in-renderers)
-        - [Render As UL](#render-as-ul)
-        - [Render As OL](#render-as-ol)
-        - [Render As Div](#render-as-div)
-	- [Custom Renderers](#custom-renderers)
-* [Authorization](#authorization)
-* [Configuration](#configuration)
+* [I) CAHIER DES CHARGES DU PROJET](#cahier-des-charges-du-projet)
+* [II) LE MATERIEL NECESSAIRE (optionnel)](#le-materiel-necessaire-(optionnel))
+* [III) Rentrons un peu dans la technique](#rentrons-un-peu-dans-la-technique) 
+	- [III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#le-choix-du-framework-backend-python)
+	- [III)2 Le CHOIX DU FRAMEWORK BACKEND PYTHON](#le-choix-du-framework-backend-python)
+	- [III)2 ZOOM SUR FLASK](#zoom-sur-flask)
 
-# I) CAHIER DES CHARGES DU PROJET
+# CAHIER DES CHARGES DU PROJET
 L'objectif du projet est de monter un site de dashboarding en utilisant le micro-framework python Flask et un capteur de températue de type DTH.  
 Ce projet est juste un POC pour tester Flask et donner un backbone pour construire son propre site de Dashboarding.  
   
 Afin de pousser un peu plus loin l'utilisation de Flask, une base de données sera utilisé et un système d'autentification sera rajouté en plus.
   
   
-# II) LE MATERIEL NECESSAIRE (optionnel)
+# LE MATERIEL NECESSAIRE (optionnel)
 
  * Un RASPBERRY
  * Un capteur de temprature, humidité DTH ([DTH11](https://www.robotshop.com/eu/fr/capteurs-temperature-humidite-dth11-dfrobot-gravity.html  "lien vers un site de revente"), DTH21, ...)
   
 Afin de ne pas bloquer pour une question de materiels, le modèle intègre un simulateur de données. 
 
-# III) Rentrons un peu dans la technique
-## III)1 Le CHOIX DU FRAMEWORK BACKEND PYTHON 
+# Rentrons un peu dans la technique
+## Le CHOIX DU FRAMEWORK BACKEND PYTHON 
 En terme de framework web python, plusieurs possibilités sont disponibles avec parfois peu de différence.
 Parmi ces frameworks, nous pouvons en citer deux qui ont retenu mon attention :
 * DJANGO
@@ -65,7 +46,7 @@ Et qui dit liberté sur la structure, dit aussi difficulté à maintenir si la r
   
 Pour ma part, après m'être froté à Django, j'apprécie fortement la liberté de FLASK mais en appliquant certains concept de Django. Mes projets de type POC ou Monopage justifient aussi mon attirance pour ce Framework.
 
-## III)2 ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
+## ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
 
 Pour installer flask, commencer par installer la biblioteque necessaire par la commande qui suit :  
 ```python -m pip install Flask```   
