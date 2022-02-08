@@ -48,7 +48,9 @@ Pour ma part, après m'être froté à Django, j'apprécie fortement la liberté
 ## ZOOM SUR [FLASK](https://flask.palletsprojects.com/ "se rediriger vers site du framework")
 
 Pour installer flask, commencer par installer la biblioteque necessaire par la commande qui suit :  
-```python -m pip install Flask```   
+```
+python -m pip install Flask
+```   
 *Nota : ke préconise l'utilisation d'un environnement virtuel*
   
 Le meilleurs moyen d'illuster Flask, c'est d'en montrer son apparente simplicité via le "Hello  World" de cette technologie :
@@ -63,11 +65,12 @@ def hello_world():
     return "<p>Hello, World!</p>"
     
 if __name__ == "__main__":
-    app.run()
-    
+    app.run()  
 ```  
 Dans votre invit de commande préfére, saisir au niveau du répertoire contenant votre fichier *run.py* la commande suivante :  
-```python run.py```  
+```
+python run.py
+```  
   
 Votre serveur est désormé lancé en local sur votre PC et est accesible à l'url suivante : http://127.0.0.1:5000/ ou http://localhost:5000/.
 
@@ -103,10 +106,14 @@ J'ai pour habitude de travailler via des environnements virtuels pour mes projet
 Pour ma part, j'utilise Virtualenv mais Venv fourni de base avec Python fait tres bien l'affaire.
 
 A la racine du projet précédemment téléchargé, saisir la commande suivante dans votre invite de commande préféré :  
-* ```python -m pip install -r requirements.txt```  
+```
+* python -m pip install -r requirements.txt
+```  
 > Cette commande va permettre de charger les biblioteques necessaires au projet directement dans votre environnement virtuel.  
 
-* ```python run.py```  
+* ```
+* python run.py
+* ```  
 >  Commande pour lancer le serveur Flask
 
 Vous pouver maintenant ouvrir votre application à l'adresse suivante : http://localhost:5000/
